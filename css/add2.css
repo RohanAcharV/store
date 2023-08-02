@@ -1,0 +1,154 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    display: flex;
+
+}
+
+.nav{
+    /* background-color: red; */
+    background: rgba(49, 44, 163, 0.726);
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5494791666666667) 35%, rgba(0,212,255,1) 100%); */
+    height: 100vh;
+    width: 20vw;
+
+}
+.info{
+    margin-top: 5vh;
+    list-style-type: none;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.info li{
+    margin: 20px 0;
+}
+#calculator{
+    margin-top: 15vh;
+    background-color: white;
+    height: 20vh;
+    text-align: center;
+}
+.container{
+    height: 100vh;
+    width: 80vw;
+}
+
+#srch,.table{
+    margin: 5vh 10vw;
+    text-align: center;
+}
+.search .sbtn{
+    background-color: rgb(0, 204, 255);
+    color: white;
+    width: 10vw;
+    border: none;
+    height: 5vh;
+    border-radius: 5px;
+
+}
+
+#items {
+    margin-top: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #items td, #items th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #items tr:nth-child(even){background-color: #f2f2f2;}
+  
+  /* #items tr:hover {background-color: #ddd;} */
+  
+  #items th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+  }
+  #nxt{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: none;
+}
+.delbtn{
+    width: 100%;
+    height: 4vh;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    }
+.alert{
+    background-color: red;
+    color: white;
+    height: 5vh;
+    font-size: 25px;
+    margin-top: 2vh;
+}
+
+#pname{
+    width: 15vw;
+}
+
+.pqty{
+    margin-left: 5vw;
+    text-align: center;
+}
+
+.recom{
+    width: 60vw;
+    margin: 0 10vw;
+    height: 4vh;
+    font-weight: bold;
+    text-align: left;
+    text-align:center;
+}
+.total{
+    width: 60vw;
+    margin: auto;
+    /* background-color: aqua; */
+    padding: 2vh 0;
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
+    font-size: 20px;
+}
+
+.cbttn,#calculate{
+    /* background-color: white; */
+    background: linear-gradient(to bottom, #8d99ae, #abb2bf);
+    /* color: red; */
+    border-radius: 10px;
+    color: #fff;
+    position: absolute;
+    width: 20vw;
+    height: 8vh;
+    left: 0;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+#calculate:hover,.cbttn:hover {
+    background: linear-gradient(to bottom, #abb2bf, #8d99ae);
+  }
+#payment{
+    bottom: 5vh;
+}
+#cancel{
+    bottom: 15vh;
+}
+.values{
+    /* width: 10vw; */
+    font-weight: bolder;
+    /* margin: 0 2vw; */
+}
+
+

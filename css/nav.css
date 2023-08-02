@@ -1,0 +1,89 @@
+*{
+    margin: 0;padding: 0;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 100vh;
+  }
+  
+  .profile {
+    height: 30vw;
+    /* background-color: red; */
+    background: url(supermarket.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .menu {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #2b2d42, #373a52);
+    padding: 20px;
+  }
+  
+  .menu_bttn {
+    height: 8vh;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    background: linear-gradient(to bottom, #8d99ae, #abb2bf);
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    transition: background 0.2s ease;
+  }
+  
+  .menu_bttn:hover {
+    background: linear-gradient(to bottom, #abb2bf, #8d99ae);
+  }
+  
+  .sale {
+    height: 60%;
+    background: linear-gradient(to bottom, #2b2d42, #373a52);
+    padding: 20px;
+  }
+  
+  .sale_bttn {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    /* background: linear-gradient(0deg, rgba(18,85,205,1) 15%, rgba(9,70,121,0.5298713235294117) 100%); */
+    background: linear-gradient(0deg, rgba(205,18,18,1) 15%, rgba(121,9,9,0.5298713235294117) 100%);
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    height: 15vh;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    transition: background 0.2s ease;
+  }
+  
+  .sale_bttn:hover {
+    background: linear-gradient(0deg, rgba(18,85,205,1) 15%, rgba(9,70,121,0.5298713235294117) 100%);
+  }
+  
+  .selected {
+    background: linear-gradient(0deg, rgba(18,85,205,1) 15%, rgba(9,70,121,0.5298713235294117) 100%);
+  }
+  
+body{
+    display: flex;
+    flex-direction: row;
+    background: rgb(2,0,36);
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5494791666666667) 35%, rgba(0,212,255,1) 100%); */
+}
+.content{
+    width: 75vw;
+    /* min-height: 100vh; */
+}

@@ -1,0 +1,32 @@
+
+.content{
+    height: 80vh;
+    margin: auto;
+    margin-top: 0;
+}
+h1{
+    color: white;
+}
+.bx{
+    margin: 5vh 15vw;
+    background-color: rgba(128, 128, 128, 0.052);
+     text-align: center;    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+form input,form select{
+    margin: 1vh 0;
+    height: 4vh;
+    text-align: center;
+    font-size: 18px;
+}
+input[type=submit] {
+    background-color:  #4CAF50;
+    border: none;
+    color: white;
+}
